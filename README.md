@@ -25,18 +25,35 @@ Each D flip-flop in the circuit has a Data (D) input, a Clock (CLK) input, and a
 
 **Procedure**
 
-/* write all the steps invloved */
+Understand the Shift Register Types Serial-In Serial-Out (SISO): Bits are input serially and shifted out serially. Serial-In Parallel-Out (SIPO): Bits are input serially and output parallelly. Parallel-In Serial-Out (PISO): Bits are input parallelly and shifted out serially. Parallel-In Parallel-Out (PIPO): Bits are input and output parallelly.
+
+General Inputs and Outputs
+
+Inputs: clk: Clock signal. reset: To initialize or reset the register. data_in: Input data (serial or parallel).
+
+Outputs: data_out: Output data (serial or parallel).
 
 **PROGRAM**
 
 /* Program for flipflops and verify its truth table in quartus using Verilog programming.
 
-Developed by: RegisterNumber:
+Developed by: Janani Gowrisankar
+RegisterNumber:24009971
+
+![image](https://github.com/user-attachments/assets/e9ce872d-a17b-4efb-988e-11864c2cd9c8)
+
 
 */
 
 **RTL LOGIC FOR SISO Shift Register**
 
+![image](https://github.com/user-attachments/assets/cf860dbf-99c8-4950-9f3e-9f14b60edeee)
+
+
 **TIMING DIGRAMS FOR SISO Shift Register**
 
+![image](https://github.com/user-attachments/assets/1223024f-96cb-4a6f-a7ac-d749e1ecd387)
+
+
 **RESULTS**
+The implementation of SISO Shift Register using verilog and validating their functionality using their functional tables
